@@ -59,3 +59,25 @@ a {
     display:flex;
     flex-wrap:wrap;
 }
+
+/* ==================
+    Header Styles
+=====================*/
+
+header {
+    min-height:100vh;
+}
+
+ul.flexContainer {
+    justify-content:space-between;
+}
+
+header a {
+    padding: 10px 20px;
+    background-color:tomato;
+    display:block;
+}
+
+header li {
+    margin:0 10px;
+}
