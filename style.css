@@ -8,8 +8,54 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+/* ==================
+    Overall Styles
+=====================*/
+
+html {
+    font-size:125%;
+    font-family:'Times New Roman', Times, serif;
+}
+
 body {
     background-color:#badA55;
     color:black;
-    font-size:125%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin:0;
+    padding:0;
+}
+
+ul {
+    list-style-type:none;
+}
+
+.wrapper {
+    max-width:1080px;
+    width:80%;
+    margin:0 auto;
+}
+
+img {
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+a {
+    text-decoration:none;
+    color:inherit;
+}
+
+.flexContainer {
+    display:flex;
+    flex-wrap:wrap;
 }
